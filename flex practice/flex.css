@@ -1,0 +1,27 @@
+.grid{
+  display:flex;
+  /*flex-flow: row-reverse;*/
+  width: 50%;
+}
+
+img {
+  width: 100%;
+}
+
+.grid > div {
+  background-color: red;
+  /*flex:1;*/
+  margin-right: 10px;
+}
+/*This stops the margin from being added to the right
+side of the grid */
+.grid > div:last-child {
+  margin 0;
+  margin-right: 10px;
+}
+.left {
+flex: 2;
+}
+.right{
+flex: 1;
+}
