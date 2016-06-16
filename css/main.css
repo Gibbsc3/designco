@@ -55,10 +55,21 @@ header {
     margin-top: 100px;
     margin-bottom: 30px;
 }
-.head-text {
-    margin: 0 0 0 0 !important;
+ /*
+ .head-text > h1 , p
+I commented it out so the site would function,
+but why does this code affect styling for elements in
+my footer?
+
+ */  .head-text > h1 {
+    margin: 0 0 0 0 ;
     color: #4a4a4a;
     text-align: center;
+}
+.head-text > p {
+   margin: 0 0 0 0 ;
+   color: #4a4a4a;
+   text-align: center;
 }
 
 /* Heading text
